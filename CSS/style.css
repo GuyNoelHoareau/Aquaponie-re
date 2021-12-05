@@ -2,13 +2,11 @@ html {
     font-size: 62.5%;
 }
 
-
 body {
     margin: 0;
     font-family: 'Lato', 'sans-serif';
     background-color: #f7f7f7;
 }
-
 
 
 /* Navigation */
@@ -36,7 +34,6 @@ body {
     color: #373737;
 }
 
-
 #navigation a:active {
     font-size: 4rem;
 }
@@ -47,7 +44,6 @@ body {
 
 
 /* Header accueil */
-
 
 header {
     height: 100vh;
@@ -74,7 +70,7 @@ header h2 {
     margin: 0;
     color: #f7f7f7;
     position: relative;
-    top: 32rem;
+    top: 29rem;
     font-family: 'Abril Fatface';
     font-size: 5rem;
     letter-spacing: 0.2rem;
@@ -102,16 +98,14 @@ header #arrow {
     opacity: 0;
 }
 
-
 @keyframes pulse {
-    to
-    {
+    to {
         box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.01);
     }
 }
 
-/* première section About avec 3 photos */
 
+/* première section About avec 3 photos */
 
 .section-about {
     background-color: #f7f7f7;
@@ -134,11 +128,10 @@ header #arrow {
     color: transparent;
     letter-spacing: .2rem;
     padding-top: 5rem;
-
 }
 
 .row {
-    max-width:114rem;
+    max-width: 114rem;
     margin: 0 auto;
 }
 
@@ -175,15 +168,13 @@ header #arrow {
     margin-bottom: 3rem;
 }
 
-
 .composition {
     position: relative;
 }
 
-
 .composition_photo {
     width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
     z-index: 10;
@@ -195,22 +186,24 @@ header #arrow {
     left: 0;
     top: -2rem;
 }
+
 .composition_photo--2 {
     right: 0;
     top: 2rem;
 }
+
 .composition_photo--3 {
     left: 20%;
     top: 10rem;
 }
 
-
 .composition_photo:hover {
     outline: 1.5rem solid #C0b283;
     transform: scale(1.05) translateY(-0.5rem);
-    box-shadow: 0 2.5rem 4rem rgba(0,0,0,0.5);
-    z-index:30;
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+    z-index: 30;
 }
+
 .composition:hover .composition_photo:not(:hover) {
     transform: scale(0.95);
 }
@@ -218,17 +211,15 @@ header #arrow {
 
 /* Section Tarifs */
 
-
 #tarifs {
-    border-top: 1px dashed rgb(209,174,59);
+    border-top: 1px dashed rgb(209, 174, 59);
 }
-
 
 #tarifs h2 {
     text-align: center;
     font-size: 5.5rem;
     background: #f7f7f7;
-    background-image: linear-gradient(to right, #000000, rgb(255,239,185));
+    background-image: linear-gradient(to right, #000000, rgb(255, 239, 185));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -246,21 +237,21 @@ header #arrow {
     padding-bottom: 8rem;
 }
 
-
 .flexCards {
     width: 30rem;
     height: 45rem;
     margin: 2rem;
     transition: all 0.2s ease-in;
-   
 }
 
 .flexCards:nth-child(1) {
     border: 1px dashed #373737;
 }
+
 .flexCards:nth-child(2) {
     border: none;
 }
+
 .flexCards:nth-child(3) {
     border: 1px dashed #373737;
 }
@@ -303,20 +294,20 @@ header #arrow {
     font-family: 'Abril Fatface';
 }
 
-
 .flexCards:nth-child(2) .head {
     background: #373737;
     color: #FFD700;
 }
+
 .flexCards:nth-child(2) .contenu {
     background: #373737;
     color: #FFD700;
 }
+
 .flexCards:nth-child(2) .prix {
     background: #373737;
     color: #FFD700;
 }
-
 
 .flexCards:hover {
     transform: scale(1.05);
@@ -325,18 +316,15 @@ header #arrow {
 
 /* Section Phrases Slide */
 
-
-
 #phrasesSlide {
     height: 60rem;
     width: 100%;
-    border-top: 1px dashed rgb(209,174,59);
+    border-top: 1px dashed rgb(209, 174, 59);
     background: url(../ressources/sectionBg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
 }
-
 
 .cadre {
     position: absolute;
@@ -344,9 +332,9 @@ header #arrow {
     left: 50%;
     width: 110rem;
     height: 40rem;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 2px;
-    background: rgba(55,55,55,0.3);
+    background: rgba(55, 55, 55, 0.3);
     color: white;
 }
 
@@ -356,7 +344,6 @@ header #arrow {
     left: 0;
     right: 0;
     margin-top: -2.25rem;
-   
 }
 
 .carousel {
@@ -365,11 +352,9 @@ header #arrow {
     height: 4.5rem;
     text-align: center;
     line-height: 45px;
-    
 }
 
-.carousel .changeHidden{
-
+.carousel .changeHidden {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -379,33 +364,33 @@ header #arrow {
     line-height: 13rem;
     width: 100rem;
     overflow: hidden;
-
 }
 
 .carousel .changeHidden .contenant {
-
     position: relative;
     animation: carousel 8s ease-in-out infinite;
-
 }
 
 .carousel .changeHidden .element {
     font-weight: 700;
     font-size: 8rem;
-
 }
 
 @keyframes carousel {
-    0%, 20% {
+    0%,
+    20% {
         transform: translateY(0);
     }
-    25%, 45% {
+    25%,
+    45% {
         transform: translateY(-13rem);
     }
-    50%, 70% {
+    50%,
+    70% {
         transform: translateY(-26rem);
     }
-    75%, 95% {
+    75%,
+    95% {
         transform: translateY(-39rem);
     }
     100% {
@@ -413,16 +398,16 @@ header #arrow {
     }
 }
 
+
 /* Section Équipe */
 
 #equipe {
     height: 72rem;
     width: 100%;
     background: #f7f7f7;
-    border-top: 1px dashed rgb(209,174,59);
+    border-top: 1px dashed rgb(209, 174, 59);
     padding-bottom: 10rem;
 }
-
 
 #equipe h3 {
     text-align: center;
@@ -455,14 +440,13 @@ header #arrow {
     overflow: hidden;
 }
 
-
 .sousTxt {
     width: 100%;
     height: 20%;
     text-align: center;
     position: relative;
     z-index: 2;
-    background: rgb(211,203,178);
+    background: rgb(211, 203, 178);
 }
 
 .sousTxt h4 {
@@ -470,6 +454,7 @@ header #arrow {
     margin: 0;
     padding-top: 2rem;
 }
+
 .teamPic {
     width: 100%;
     height: 80%;
@@ -479,41 +464,45 @@ header #arrow {
 }
 
 .pic1 {
-    background:url("../ressources/barber1.jpg");
+    background: url("../ressources/barber1.jpg");
     background-position: 35% 15%;
 }
-.pic1:hover{
+
+.pic1:hover {
     transform: scale(1.2);
 }
+
 .pic2 {
-    background:url("../ressources/barber2.jpg");
+    background: url("../ressources/barber2.jpg");
     background-position: 50% 40%;
 }
-.pic2:hover{
+
+.pic2:hover {
     transform: scale(1.2);
 }
+
 .pic3 {
-    background:url("../ressources/barber3.jpg");
+    background: url("../ressources/barber3.jpg");
     background-position: center;
 }
-.pic3:hover{
+
+.pic3:hover {
     transform: scale(1.2);
 }
 
-/* Section Contact */
 
+/* Section Contact */
 
 #contact {
     height: 20rem;
     width: 100%;
-    border-top: 1px dashed rgb(209,174,59);
+    border-top: 1px dashed rgb(209, 174, 59);
 }
 
 #contact h2 {
     font-size: 10rem;
     text-align: center;
 }
-
 
 #contact h3 {
     text-align: center;
@@ -523,12 +512,10 @@ header #arrow {
     color: transparent;
 }
 
-
 .flexMedias {
     display: flex;
     justify-content: center;
 }
-
 
 .medias {
     font-size: 10rem;
@@ -539,5 +526,3 @@ header #arrow {
     text-decoration: none;
     color: black;
 }
-
-

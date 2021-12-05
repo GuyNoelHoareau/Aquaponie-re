@@ -3,12 +3,12 @@ header {
 }
 
 h1 {
-    top: 18rem;
+    top: 11rem;
     font-size: 4.5rem;
 }
 
 header h2 {
-    top: 20rem;
+    top: 11rem;
     font-size: 1.8rem;
     width: 50%;
 }
@@ -16,7 +16,7 @@ header h2 {
 header #arrow {
     height: 3.5rem;
     width: 3.5rem;
-    top: 75%;
+    top: 90%;
     font-size: 2.5rem;
     line-height: 3.5rem;
 }
